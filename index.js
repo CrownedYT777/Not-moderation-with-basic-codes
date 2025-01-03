@@ -30,7 +30,7 @@ function setRichPresence() {
     activities: [
       {
         name: 'Minecraft', // Status text
-        type: ActivityType.Playing, // Change activity type if needed
+        type: ActivityType.idle, // Change activity type if needed
         application_id: '1178169307339964517', // Replace with your application ID
         assets: {
           large_image: '1000013150', // Replace with your image key from the Developer Portal
